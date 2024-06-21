@@ -181,6 +181,7 @@ def download_manager(
 
 
 def load_hu_bert(config, hubert_path=None):
+    global hubert_model
     from fairseq import checkpoint_utils
 
     if hubert_path is None:
