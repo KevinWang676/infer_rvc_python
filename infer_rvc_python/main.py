@@ -204,6 +204,7 @@ def load_hu_bert(config, hubert_path=None):
     else:
         hubert_model = hubert_model.float()
     hubert_model.eval()
+    print(hubert_model)
 
     return hubert_model
 
